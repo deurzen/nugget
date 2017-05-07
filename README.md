@@ -9,8 +9,7 @@ In this context, a nugget has the same connotation. A nugget is a vital or
 valuable piece of information that you want to store for future reference.
 A nugget has the following fields:
 
-- **Title**: The name or description of the nugget. When listing nuggets, this
-             field is what is searched for and displayed.
+- **Title**: The name or description of the nugget.
 - **URI**: An reference to or identifier for the content of the nugget, such as
            a link.
 - **BODY**: The content of the nugget.
