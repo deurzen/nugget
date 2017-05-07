@@ -61,7 +61,7 @@ nugget [force] remove <i>name</i>
 
 #### Exec
 The exec command provides a way to automatically execute the commands listed
-in the sequence section of a nugget in succession, from top to bottom.
+in the sequence section of a nugget, from top to bottom.
 
 <pre>
 nugget exec <i>name</i>
