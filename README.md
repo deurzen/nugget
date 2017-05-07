@@ -1,5 +1,5 @@
 # nugget
-An intuitive CLI note taking and message databasing application.
+A simple and intuitive CLI note taking and message databasing application.
 
 ## What is a nugget?
 Historically, a nugget is a small lump of gold or other precious metal found
