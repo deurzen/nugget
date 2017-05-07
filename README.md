@@ -21,17 +21,17 @@ mv ./nugget.pl /usr/bin/nugget
 
 ## Usage
 #### Add
-To add a nugget _name_ to the database, run the following command:
+To add a nugget to the database, run the following command:
 
 ```
-nugget add name
+nugget add _name_
 ```
 
 #### Show
 To print out the contents of a nugget, use the show command.
 
 ```
-nugget show name
+nugget show _name_
 ```
 
 #### Edit
@@ -39,7 +39,7 @@ An existing nugget can be edited with the editor stored in the $EDITOR
 environment variable; if this variable isn't defined, it defaults to Vi.
 
 ```
-nugget edit name
+nugget edit _name_
 ```
 
 #### List
@@ -56,7 +56,7 @@ Before removing the nugget, a conformation prompt is spawned. To force the
 deletion without confirmation, use the force keyword in front of the command.
 
 ```
-nugget [force] remove name
+nugget [force] remove _name_
 ```
 
 #### Exec
@@ -64,7 +64,7 @@ The exec command provides a way to automatically execute the commands listed
 in the sequence section of a nugget in succession, from top to bottom.
 
 ```
-nugget exec name
+nugget exec _name_
 ```
 
 #### Copy
@@ -73,5 +73,5 @@ arguments, the first one being the name of the nugget you want to move, the
 second being the name of the new nugget.
 
 ```
-nugget copy source destination
+nugget copy _source_ _destination_
 ```
