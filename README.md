@@ -20,8 +20,6 @@ mv ./nugget.pl /usr/bin/nugget
 ```
 
 ## Usage
-The program has seven commands.
-
 #### Add
 To add a nugget _name_ to the database, run the following command:
 
