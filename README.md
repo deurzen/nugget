@@ -1,6 +1,10 @@
 # nugget
 An intuitive CLI note taking and message databasing solution.
 
+## What is a nugget?
+Historically, a nugget is a small lump of gold or other precious metal found
+ready-formed in the earth.
+
 ## Installation
 To install the script, run the provided shell script.
 
