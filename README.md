@@ -12,8 +12,8 @@ A nugget has the following fields:
 - **Title**: The name or description of the nugget.
 - **URI**: A reference to or identifier for the content of the nugget, such as
            a link.
-- **BODY**: The main content of the nugget.
-- **SEQUENCE**: A sequence of commands associated with the content of the
+- **Body**: The main content of the nugget.
+- **Sequence**: A sequence of commands associated with the content of the
                 nugget. This sequence can be executed with the _exec_ command.
 
 
