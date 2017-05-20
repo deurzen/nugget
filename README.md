@@ -33,7 +33,7 @@ directory can be altered through the `VIMSG_DIR` variable in the perl script.
 mkdir -p /var/lib/vimsg/nugget
 chown -R $USER /var/lib/vimsg
 chmod +x ./nugget.pl
-mv ./nugget.pl /usr/local/bin/nugget
+install ./nugget.pl /usr/local/bin/nugget
 ```
 
 ## Usage

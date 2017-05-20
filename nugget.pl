@@ -13,29 +13,17 @@ my @COMMAND_NAMES = qw(add show edit list remove exec copy);
 my %COMMANDS = map { $_ => 1 } @COMMAND_NAMES;
 my $PADDING = 14;
 
-sub printcolor {
-	print @_, RESET;
-}
+sub printcolor { print @_, RESET; }
 
-sub printb {
-	printcolor(BLUE, "$_[0]");
-}
+sub printb { printcolor(BLUE, "$_[0]"); }
 
-sub printy {
-	printcolor(YELLOW, "$_[0]");
-}
+sub printy { printcolor(YELLOW, "$_[0]"); }
 
-sub printp {
-	printcolor(MAGENTA, "$_[0]");
-}
+sub printp { printcolor(MAGENTA, "$_[0]"); }
 
-sub printr {
-	printcolor(RED, "$_[0]");
-}
+sub printr { printcolor(RED, "$_[0]"); }
 
-sub printg {
-	printcolor(GREEN, "$_[0]");
-}
+sub printg { printcolor(GREEN, "$_[0]"); }
 
 sub print_usage {
 	printb("usage: nugget [*force] " .
@@ -259,11 +247,11 @@ sub list_nugget_files {
 
 sub delegate_command {
 	my %COMMANDS = (
-		add => sub { add_nugget_file($_[2]); },
-		show => sub { show_nugget_file($_[2]); },
-		edit => sub { edit_nugget_file($_[2]); },
+		add    => sub { add_nugget_file($_[2]);           },
+		show   => sub { show_nugget_file($_[2]);          },
+		edit   => sub { edit_nugget_file($_[2]);          },
 		remove => sub { remove_nugget_file($_[0], $_[2]); },
-		exec => sub { exec_nugget_file($_[2]); }
+		exec   => sub { exec_nugget_file($_[2]);          },
 	);
 	if (scalar(@_) > 3 and $_[1] eq "copy") {
 		copy_nugget_file($_[2], $_[3]);
@@ -283,7 +271,7 @@ sub delegate_command {
 sub parse_input {
 	my @INPUT;
 	my $FORCE = 0;
-	if (!@ARGV or $ARGV[0] eq "force") {
+	if (! @ARGV or $ARGV[0] eq "force") {
 		$FORCE = 1;
 		shift(@ARGV);
 	}

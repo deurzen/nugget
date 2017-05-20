@@ -4,6 +4,6 @@ $NUGGET_DIR="${DIR}nugget"
 sudo mkdir -p $NUGGET_DIR 2>/dev/null
 sudo chown -R $USER $DIR
 chmod u+x ./nugget.pl
-sudo mv ./nugget.pl /usr/local/bin/nugget
-echo "nugget successfully installed"
+sudo install ./nugget.pl /usr/local/bin/nugget
+echo "application successfully installed"
 nugget
