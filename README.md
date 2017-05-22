@@ -30,10 +30,10 @@ Alternatively, the nugget storage directory can be added manually. This
 directory can be altered through the `VIMSG_DIR` variable in the perl script.
 
 ```
-mkdir -p /var/lib/vimsg/nugget
+mkdir -p /var/lib/vimsg/{nugget,deleted}
 chown -R $USER /var/lib/vimsg
-chmod +x ./nugget.pl
-install ./nugget.pl /usr/local/bin/nugget
+pp -o nugget nugget.pl
+install nugget /usr/local/bin/
 ```
 
 ## Usage
