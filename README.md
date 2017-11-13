@@ -7,7 +7,7 @@ ready-formed in the earth.
 
 In this context, a nugget has the same connotation. A nugget is a vital or
 valuable piece of information that you want to store for future reference.
-A nugget has the following fields:
+A nugget has the following properties:
 
 - **Title**: The name or description of the nugget.
 - **URI**: A reference to or identifier for the content of the nugget, such as
