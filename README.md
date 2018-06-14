@@ -23,7 +23,7 @@ To install the script, run the provided shell script.
 ```
 git clone https://github.com/deurzen/nugget.git
 cd nugget
-bash ./installation.sh
+./installation.sh
 ```
 
 Alternatively, the nugget storage directory can be added manually. This
